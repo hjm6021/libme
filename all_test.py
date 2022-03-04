@@ -7,7 +7,6 @@ from tests.root_path import testSuiteTestCase
 def suite():
     suite_set = unittest.TestSuite()
     suite_set.addTest(testSuiteTestCase("testRootpath"))
-    suite_set.addTests([testSuiteTestCase("testRootpath")])
     return suite_set
 
 
